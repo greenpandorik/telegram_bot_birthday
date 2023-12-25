@@ -2,6 +2,8 @@
 
 [![Python](https://img.shields.io/badge/-Python-464646?style=flat-square&logo=Python)](https://www.python.org/)
 
+## В разработке
+
 ## Описание
 Телеграм-бот, с помощью которого можно будет делать себе напоминалки о Днях Рождениях.
 В чате или в Л\С с ботом.
