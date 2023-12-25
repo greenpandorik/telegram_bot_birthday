@@ -8,4 +8,4 @@
 
 # Автор:
    <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
-   Михаил Волков, MyTelegram -> @greenpandorik
+   Михаил Волков, MyTelegram <a href="https://t.me/greenpandorik">MyTelegram</a>
