@@ -1,16 +1,24 @@
 import os
 import asyncio
 import logging
+
 from dotenv import load_dotenv
 from aiogram import Bot, Dispatcher
-from handlers import reg_birthday_answers
+from aiogram.fsm.state import StatesGroup, State
 
+from handlers import reg_birthday_answers
 
 load_dotenv()
 secret_token = os.getenv('TELEGRAM_TOKEN_BOT')
+api_key_yagpt = os.getenv('API_KEY_YAGPT')
 bot = Bot(token=secret_token)
-# Включаем логирование, чтобы не пропустить важные сообщения
 logging.basicConfig(level=logging.INFO)
+
+
+class Form(StatesGroup):
+    name = State()
+    date = State()
+    remember_date = State()
 
 
 # Объект бота
